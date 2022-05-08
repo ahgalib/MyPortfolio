@@ -17,21 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login',function(){
-	return view('login');
-});
-Route::get('/contact',function(){
-	return view('contact');
-});
-
-Route::get('preview',function(){
-	return view('preview');
-});
-
-Route::get('products',function(){
-	return view('products');
-});
-
-Route::get('topbrands',function(){
-	return view("topbrands");
-});
